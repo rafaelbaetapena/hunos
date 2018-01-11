@@ -2,7 +2,7 @@ new Vue({
     el: '#app',
     data: function () {
         return {
-            title: 'Hunos 123',
+            title: 'On tap',
             beers: [],
             loading: true
         }

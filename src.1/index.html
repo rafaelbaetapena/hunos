@@ -20,14 +20,13 @@
                 <div class="bounce3"></div>
             </div>
         </div>
+        <div class="section_title">
+            <h5>{{title}}</h5>
+        </div>
         <div class="section_content">
             <table>
-                <tr class="section_title">
-                    <td colspan="8">
-                        <h5>{{title}}</h5>
-                    </td>
-                </tr>
                 <tr>
+                    <th></th>
                     <th></th>
                     <th></th>
                     <th>ABV</th>
@@ -37,7 +36,8 @@
                     <th>1000 ml</th>
                 </tr>
                 <tr v-for="(b, key) in beers">
-                    <td><img v-bind:src="'/img/' + b.imagem" /></td>
+                    <td></td>
+                    <td>{{b.imagem}}</td>
                     <td class="text_nowrap">{{(key+1)}}. {{b.nome}} - {{b.estilo}}</td>
                     <td class="text_align_center">{{b.abv}}%</td>
                     <td class="text_align_center">{{b.ibu}}</td>
@@ -45,12 +45,10 @@
                     <td class="text_align_center">R${{b.valor473}}</td>
                     <td class="text_align_center">R${{b.valor1000}}</td>
                 </tr>
-                <tr class="section_footer">
-                    <td colspan="8">
-                        powered by hunos
-                    </td>
-                </tr>
             </table>
+        </div>
+        <div class="section_footer">
+            powered by hunos
         </div>
     </div>
 </body>

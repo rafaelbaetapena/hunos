@@ -13,7 +13,7 @@ new Vue({
     methods: {
         getBeers: function () {
             const self = this
-            loadJSON('./data/data.json?nc=' + Date.now(), function (response) {
+            loadJSON('./data/data.json', function (response) {
                 // Parse JSON string into object
                 self.beers = JSON.parse(response)
                 self.loading = false

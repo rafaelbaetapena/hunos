@@ -1,13 +1,13 @@
 [
     {
-        "nome": "Hunos Bier 12",
+        "nome": "Hunos Bier",
         "estilo": "IPA",
         "abv": "6,2",
         "ibu": "60",
         "valor300": "10",
         "valor473": "16",
         "valor1000": "28",
-        "imagem": "beer0.jpg"
+        "imagem": "1"
     },
     {
         "nome": "Ouro Pretana",
@@ -17,7 +17,7 @@
         "valor300": "8",
         "valor473": "12",
         "valor1000": "22",
-        "imagem": "beer1.jpeg"
+        "imagem": "1"
     },
     {
         "nome": "Capa Preta",
@@ -27,7 +27,7 @@
         "valor300": "15",
         "valor473": "23",
         "valor1000": "44",
-        "imagem": "beer2.jpeg"
+        "imagem": "1"
     },
     {
         "nome": "Capa Preta",
@@ -37,7 +37,7 @@
         "valor300": "15",
         "valor473": "23",
         "valor1000": "44",
-        "imagem": "beer3.jpeg"
+        "imagem": "1"
     },
     {
         "nome": "Capa Preta",
@@ -47,7 +47,7 @@
         "valor300": "15",
         "valor473": "23",
         "valor1000": "44",
-        "imagem": "beer4.jpeg"
+        "imagem": "1"
     },
     {
         "nome": "Capa Preta",
@@ -57,7 +57,7 @@
         "valor300": "15",
         "valor473": "23",
         "valor1000": "44",
-        "imagem": "beer5.jpeg"
+        "imagem": "1"
     },
     {
         "nome": "Capa Preta",
@@ -67,7 +67,7 @@
         "valor300": "15",
         "valor473": "23",
         "valor1000": "44",
-        "imagem": "beer6.jpeg"
+        "imagem": "1"
     },
     {
         "nome": "Capa Preta",
@@ -77,6 +77,6 @@
         "valor300": "15",
         "valor473": "23",
         "valor1000": "44",
-        "imagem": "beer7.jpeg"
+        "imagem": "1"
     }
 ]

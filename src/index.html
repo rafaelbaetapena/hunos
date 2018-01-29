@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
+    <meta charset="utf-8">
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="expires" content="0" />
@@ -38,7 +39,9 @@
                     <th width="10%">1000ml</th>
                 </tr>
                 <tr v-for="(b, key) in beers">
-                    <td><img v-bind:src="'/img/' + b.imagem" /></td>
+                    <td>
+                        <img v-bind:src="'/img/' + b.imagem" />
+                    </td>
                     <td class="text_nowrap">{{(key+1)}}. {{b.nome}} - {{b.estilo}}</td>
                     <td class="text_align_center">{{b.abv}}%</td>
                     <td class="text_align_center">{{b.ibu}}</td>
